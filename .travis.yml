@@ -8,7 +8,11 @@ os:
 before_script:
 
   - brew update
-  - brew install mysql openssl readline cmake boost zlib
+  - brew upgrade openssl
+  - brew install mysql
+  - brew install readline
+  - brew upgrade boost
+  - brew install zlib
   - brew link zlib --force
   - mkdir bin
   - cd bin
