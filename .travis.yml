@@ -11,7 +11,6 @@ before_script:
   - brew upgrade openssl
   - brew install mysql
   - brew install readline
-  - brew upgrade boost
   - brew install zlib
   - brew link zlib --force
   - mkdir bin
